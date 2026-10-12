@@ -33,7 +33,6 @@
 *.rar
 
 .opencode/
-UniGuiConfiguration-Recovery-Phase2/reconstruction/__history
 host-migration-demo-20260922/
 UniGuiConfiguration-Recovery-Phase1/
 UniGuiConfiguration-Recovery-Phase2/extracted/
@@ -44,7 +43,7 @@ UniGuiConfiguration-Recovery-Phase2/tools/
 
 UniGuiConfiguration-Recovery-Phase2/reconstruction/__history/
 UniGuiConfiguration-Recovery-Phase2/reconstruction/__pycache__/
-UniGuiConfiguration-Recovery-Phase2/reconstruction/baselines
+UniGuiConfiguration-Recovery-Phase2/reconstruction/baselines/
 UniGuiConfiguration-Recovery-Phase2/reconstruction/bin/
 UniGuiConfiguration-Recovery-Phase2/reconstruction/dcu/
 UniGuiConfiguration-Recovery-Phase2/reconstruction/deployment/
@@ -57,4 +56,3 @@ UniGuiConfiguration-Recovery-Phase2/reconstruction/tools/
 UniGuiConfiguration-Recovery-Phase2/reconstruction/validation/
 UniGuiConfiguration-Recovery-Phase2/reconstruction/*.log
 UniGuiConfiguration-Recovery-Phase2/reconstruction/*.bat
-.opencode
