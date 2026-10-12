@@ -32,7 +32,7 @@
 *.ini
 *.rar
 
-.opencode/
+
 host-migration-demo-20260922/
 UniGuiConfiguration-Recovery-Phase1/
 UniGuiConfiguration-Recovery-Phase2/extracted/
@@ -56,3 +56,4 @@ UniGuiConfiguration-Recovery-Phase2/reconstruction/tools/
 UniGuiConfiguration-Recovery-Phase2/reconstruction/validation/
 UniGuiConfiguration-Recovery-Phase2/reconstruction/*.log
 UniGuiConfiguration-Recovery-Phase2/reconstruction/*.bat
+.opencode
