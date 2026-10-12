@@ -1,0 +1,54 @@
+inherited WebDataCheck: TWebDataCheck
+  ClientHeight = 94
+  ClientWidth = 264
+  Caption = 'WebDataCheck'
+  BorderIcons = [biSystemMenu]
+  ExplicitWidth = 280
+  ExplicitHeight = 133
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btOk: TUniButton
+    AlignWithMargins = True
+    Left = 180
+    Top = 61
+    Width = 81
+    Height = 30
+    Hint = ''
+    Margins.Left = 180
+    Caption = #30830#23450
+    Align = alBottom
+    TabOrder = 0
+    OnClick = btOkClick
+  end
+  object cbTableName: TUniComboBox
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 258
+    Hint = ''
+    Style = csDropDownList
+    Text = ''
+    Align = alTop
+    TabOrder = 1
+    EmptyText = #35831#36873#25321#20851#32852#34920#21333
+    FieldLabel = #20851#32852#34920#21333
+    FieldLabelAlign = laRight
+    IconItems = <>
+    OnChange = cbTableNameChange
+  end
+  object cbField: TUniComboBox
+    AlignWithMargins = True
+    Left = 3
+    Top = 31
+    Width = 258
+    Hint = ''
+    Style = csDropDownList
+    Text = ''
+    Align = alTop
+    TabOrder = 2
+    EmptyText = #35831#36873#25321#26657#39564#23383#27573
+    FieldLabel = #26657#39564#23383#27573
+    FieldLabelAlign = laRight
+    IconItems = <>
+  end
+end
